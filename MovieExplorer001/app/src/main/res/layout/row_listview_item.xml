@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="true"
+    android:theme="@style/Base.TextAppearance.AppCompat.Body2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#e1211420">
+        <ImageView
+            android:id="@+id/filmImage"
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:layout_margin="1dp"
+            android:layout_marginRight="3dp"
+            android:src="@android:drawable/ic_dialog_info">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/originalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#fffbfdff"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/filmImage"
+            android:gravity="center_vertical">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vote_average  :"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/voteAverage"
+            android:layout_toEndOf="@+id/filmImage"
+            android:textColor="#fffbfdff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/voteAverage"
+            android:layout_marginLeft="5dp"
+            android:textColor="#fffbfdff"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/filmDate"
+            android:layout_marginLeft="5dp"
+            android:layout_alignBottom="@+id/filmImage"
+            android:layout_alignParentEnd="true"
+            android:textColor="#fffbfdff" />
+
+    </RelativeLayout>
+</LinearLayout>

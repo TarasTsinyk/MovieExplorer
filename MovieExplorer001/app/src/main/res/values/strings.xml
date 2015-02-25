@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Explorer</string>
+    <string name="title_section1">Popular</string>
+    <string name="title_section2">Top Rated</string>
+    <string name="title_section3">Upcoming</string>
+    <string name="title_section4">Clear Cache</string>
+    <string name="title_section5">Aboute</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_info">DetailInfoActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboute">"Version\n 1.0.0\nAuthor\nTaras Tsinyk\nE-mail: ttsinyk@gmail.com\nProvider\nhttp://www.themoviedb.org/"</string>
+    <string name="pupular_url">https://api.themoviedb.org/3/movie/popular?api_key=b553192b3062439e257ea463c8d3341e</string>
+    <string name="top_rated_url">https://api.themoviedb.org/3/movie/top_rated?api_key=b553192b3062439e257ea463c8d3341e</string>
+    <string name="upcoming_url">https://api.themoviedb.org/3/movie/upcoming?api_key=b553192b3062439e257ea463c8d3341e</string>
+    <string name="search_url">https://api.themoviedb.org/3/search/movie?api_key=b553192b3062439e257ea463c8d3341e</string>
+</resources>
